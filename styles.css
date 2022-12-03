@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  padding: 0 5em 0 5em;
+}
+
+/* styling HTML element, no class, no id yet */
+h1, h2, h3, a {
+  color: rgb(17, 114, 80);
+  padding: 0.5em 0 0.5em 0;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+section {
+  padding: 2em 0 2em 0;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 5em;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-top: 2em;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(196, 40, 118);
+  text-decoration: dashed;
+}
+
+textarea {
+  width: 75%;
+}
+
+/* styling for SVG file */
+svg {
+  width: 26em;
+  height: auto;
+}
+
+/* changing color animation */
+#bye2022 {
+  background-color: rgb(234, 128, 146);
+  transition: 1s ease-in;
+}
+
+#bye2022:hover {
+  background-color: white;
+  transition: background-color 1.5s;
+}
+
+/* rotating in different axes */
+
+#number2 {
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: translate3d(0);
+  }
+  to {
+    transform: translate3d(10em, 50em, 15em);
+  }
+}
+
+path#number0 {
+  animation: moveout 2s infinite ease-in;
+}
+
+@keyframes moveout {
+  from {
+    transform: translate3d(0);
+  }
+  to {
+    transform: translate3d(-10em, -50em, -15em);
+  }
+}
