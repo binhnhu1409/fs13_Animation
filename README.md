@@ -1,6 +1,6 @@
 # :sparkles: Welcome to my simple CSS Animation site :sparkles:
 
-In this small project, my main focus is to practice animation SVG file so I keep other styling quite simple. Visit the web [here](Visit my project [here](https://binhnhu1409.github.io/Nhu_Intro_HTML/))
+In this small project, my main focus is to practice animation SVG file so I keep other styling quite simple. Visit the web [here](https://binhnhu1409.github.io/fs13_Animation/)
 
 ## Tasks have been done
 
